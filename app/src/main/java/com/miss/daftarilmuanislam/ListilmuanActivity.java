@@ -51,6 +51,7 @@ R.drawable.umarkhayyam};
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_ilmuan);
+         getSupportActionBar().setDisplayShowEnabled(true);
 
         ListView listView = findViewById(R.id.listViewIlmuan);
         CustomListviewAdapter customListviewAdapter = new CustomListviewAdapter();
